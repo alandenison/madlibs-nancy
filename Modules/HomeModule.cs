@@ -15,6 +15,7 @@ namespace MadLibs
         {
           Person1 = Request.Query["person1"],
           Person2 = Request.Query["person2"],
+          Location = Request.Query["location"],
           Animal = Request.Query["animal"],
           Exclamation = Request.Query["exclamation"],
           Verb = Request.Query["verb"],
